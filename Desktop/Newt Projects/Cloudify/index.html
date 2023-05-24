@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+<style>
+    * {
+        margin: auto;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0%;
+    }
+
+    .container {
+        background-color: rgb(160, 235, 235);
+        width: 60%;
+        margin: 10%;
+        padding: 5%;
+        border-radius: 5%;
+        color: rgb(121, 130, 138);
+    }
+</style>
+
+<body>
+    <form id="myForm" class="container">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Name">
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description</label>
+            <input type="text" class="form-control" id="description" placeholder="Description">
+        </div>
+
+        <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+            <label for="due-date">Due Date:</label>
+            <input type="date" id="due-date" name="duedate">
+        </div>
+        <br>
+        <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" name="startdate">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    
+</body>
+
+</html>
+<script src="index.js">
+</script>
